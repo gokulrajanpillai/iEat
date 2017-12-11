@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "iEatServerAPI.h"
 
 @interface AppDelegate ()
 

@@ -9,13 +9,24 @@
 /* Begin PBXBuildFile section */
 		798E33A21CE731DF00BDB43A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 798E33A11CE731DF00BDB43A /* main.m */; };
 		798E33A51CE731DF00BDB43A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 798E33A41CE731DF00BDB43A /* AppDelegate.m */; };
-		798E33A81CE731DF00BDB43A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798E33A71CE731DF00BDB43A /* ViewController.m */; };
+		798E33A81CE731DF00BDB43A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798E33A71CE731DF00BDB43A /* MainViewController.m */; };
 		798E33AB1CE731DF00BDB43A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798E33A91CE731DF00BDB43A /* Main.storyboard */; };
 		798E33AE1CE731DF00BDB43A /* iEat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 798E33AC1CE731DF00BDB43A /* iEat.xcdatamodeld */; };
 		798E33B01CE731DF00BDB43A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798E33AF1CE731DF00BDB43A /* Assets.xcassets */; };
 		798E33B31CE731DF00BDB43A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798E33B11CE731DF00BDB43A /* LaunchScreen.storyboard */; };
 		798E33BE1CE731DF00BDB43A /* iEatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 798E33BD1CE731DF00BDB43A /* iEatTests.m */; };
 		798E33C91CE731DF00BDB43A /* iEatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 798E33C81CE731DF00BDB43A /* iEatUITests.m */; };
+		798E33DA1CE7329100BDB43A /* iEatServerAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 798E33D91CE7329100BDB43A /* iEatServerAPI.m */; };
+		798E33DD1CE7434100BDB43A /* Meal.m in Sources */ = {isa = PBXBuildFile; fileRef = 798E33DC1CE7434100BDB43A /* Meal.m */; };
+		798E33E11CE755C000BDB43A /* MasterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 798E33E01CE755C000BDB43A /* MasterModel.m */; };
+		798E33E81CE8A05C00BDB43A /* AllMealsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 798E33E71CE8A05C00BDB43A /* AllMealsTableViewCell.m */; };
+		798E33EA1CE8E1D200BDB43A /* AllMealsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 798E33E91CE8E1D200BDB43A /* AllMealsTableViewCell.xib */; };
+		798E33ED1CE9093000BDB43A /* AllMealsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798E33EC1CE9093000BDB43A /* AllMealsViewController.m */; };
+		798E33F01CE9BD7800BDB43A /* MealOnDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 798E33EF1CE9BD7800BDB43A /* MealOnDay.m */; };
+		798E33F71CE9E03000BDB43A /* NSDate+DateCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 798E33F61CE9E03000BDB43A /* NSDate+DateCategory.m */; };
+		798E33FA1CEA007000BDB43A /* AddMealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798E33F91CEA007000BDB43A /* AddMealViewController.m */; };
+		798E33FD1CEB25EE00BDB43A /* MealDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798E33FC1CEB25EE00BDB43A /* MealDescriptionViewController.m */; };
+		798E34021CEB45D500BDB43A /* UIImage+LoadURLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 798E34011CEB45D500BDB43A /* UIImage+LoadURLCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +51,8 @@
 		798E33A11CE731DF00BDB43A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		798E33A31CE731DF00BDB43A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		798E33A41CE731DF00BDB43A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		798E33A61CE731DF00BDB43A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		798E33A71CE731DF00BDB43A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		798E33A61CE731DF00BDB43A /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		798E33A71CE731DF00BDB43A /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		798E33AA1CE731DF00BDB43A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		798E33AD1CE731DF00BDB43A /* iEat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iEat.xcdatamodel; sourceTree = "<group>"; };
 		798E33AF1CE731DF00BDB43A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +64,27 @@
 		798E33C41CE731DF00BDB43A /* iEatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iEatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		798E33C81CE731DF00BDB43A /* iEatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iEatUITests.m; sourceTree = "<group>"; };
 		798E33CA1CE731DF00BDB43A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798E33D81CE7329100BDB43A /* iEatServerAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iEatServerAPI.h; sourceTree = "<group>"; };
+		798E33D91CE7329100BDB43A /* iEatServerAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iEatServerAPI.m; sourceTree = "<group>"; };
+		798E33DB1CE7434100BDB43A /* Meal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meal.h; sourceTree = "<group>"; };
+		798E33DC1CE7434100BDB43A /* Meal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meal.m; sourceTree = "<group>"; };
+		798E33DF1CE755C000BDB43A /* MasterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterModel.h; sourceTree = "<group>"; };
+		798E33E01CE755C000BDB43A /* MasterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterModel.m; sourceTree = "<group>"; };
+		798E33E61CE8A05C00BDB43A /* AllMealsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllMealsTableViewCell.h; sourceTree = "<group>"; };
+		798E33E71CE8A05C00BDB43A /* AllMealsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllMealsTableViewCell.m; sourceTree = "<group>"; };
+		798E33E91CE8E1D200BDB43A /* AllMealsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllMealsTableViewCell.xib; sourceTree = "<group>"; };
+		798E33EB1CE9093000BDB43A /* AllMealsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllMealsViewController.h; sourceTree = "<group>"; };
+		798E33EC1CE9093000BDB43A /* AllMealsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllMealsViewController.m; sourceTree = "<group>"; };
+		798E33EE1CE9BD7800BDB43A /* MealOnDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealOnDay.h; sourceTree = "<group>"; };
+		798E33EF1CE9BD7800BDB43A /* MealOnDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealOnDay.m; sourceTree = "<group>"; };
+		798E33F51CE9E03000BDB43A /* NSDate+DateCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DateCategory.h"; sourceTree = "<group>"; };
+		798E33F61CE9E03000BDB43A /* NSDate+DateCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DateCategory.m"; sourceTree = "<group>"; };
+		798E33F81CEA007000BDB43A /* AddMealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMealViewController.h; sourceTree = "<group>"; };
+		798E33F91CEA007000BDB43A /* AddMealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMealViewController.m; sourceTree = "<group>"; };
+		798E33FB1CEB25EE00BDB43A /* MealDescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealDescriptionViewController.h; sourceTree = "<group>"; };
+		798E33FC1CEB25EE00BDB43A /* MealDescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealDescriptionViewController.m; sourceTree = "<group>"; };
+		798E34001CEB45D500BDB43A /* UIImage+LoadURLCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LoadURLCategory.h"; sourceTree = "<group>"; };
+		798E34011CEB45D500BDB43A /* UIImage+LoadURLCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LoadURLCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +137,11 @@
 			children = (
 				798E33A31CE731DF00BDB43A /* AppDelegate.h */,
 				798E33A41CE731DF00BDB43A /* AppDelegate.m */,
-				798E33A61CE731DF00BDB43A /* ViewController.h */,
-				798E33A71CE731DF00BDB43A /* ViewController.m */,
-				798E33A91CE731DF00BDB43A /* Main.storyboard */,
+				798E33D81CE7329100BDB43A /* iEatServerAPI.h */,
+				798E33D91CE7329100BDB43A /* iEatServerAPI.m */,
+				798E33DE1CE7451900BDB43A /* Model */,
+				798E33E21CE89FF900BDB43A /* ViewController */,
+				798E33E31CE8A01600BDB43A /* View */,
 				798E33AF1CE731DF00BDB43A /* Assets.xcassets */,
 				798E33B11CE731DF00BDB43A /* LaunchScreen.storyboard */,
 				798E33B41CE731DF00BDB43A /* Info.plist */,
@@ -141,6 +175,89 @@
 				798E33CA1CE731DF00BDB43A /* Info.plist */,
 			);
 			path = iEatUITests;
+			sourceTree = "<group>";
+		};
+		798E33DE1CE7451900BDB43A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				798E33DF1CE755C000BDB43A /* MasterModel.h */,
+				798E33E01CE755C000BDB43A /* MasterModel.m */,
+				798E33EE1CE9BD7800BDB43A /* MealOnDay.h */,
+				798E33EF1CE9BD7800BDB43A /* MealOnDay.m */,
+				798E33DB1CE7434100BDB43A /* Meal.h */,
+				798E33DC1CE7434100BDB43A /* Meal.m */,
+				798E33F11CE9DFA300BDB43A /* Categories */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		798E33E21CE89FF900BDB43A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				798E33A61CE731DF00BDB43A /* MainViewController.h */,
+				798E33A71CE731DF00BDB43A /* MainViewController.m */,
+				798E33EB1CE9093000BDB43A /* AllMealsViewController.h */,
+				798E33EC1CE9093000BDB43A /* AllMealsViewController.m */,
+				798E33F81CEA007000BDB43A /* AddMealViewController.h */,
+				798E33F91CEA007000BDB43A /* AddMealViewController.m */,
+				798E33FB1CEB25EE00BDB43A /* MealDescriptionViewController.h */,
+				798E33FC1CEB25EE00BDB43A /* MealDescriptionViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		798E33E31CE8A01600BDB43A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				798E33E41CE8A02900BDB43A /* TableViewCells */,
+				798E33A91CE731DF00BDB43A /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		798E33E41CE8A02900BDB43A /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				798E33E51CE8A03200BDB43A /* AllMealsTableViewCell */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		798E33E51CE8A03200BDB43A /* AllMealsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				798E33E61CE8A05C00BDB43A /* AllMealsTableViewCell.h */,
+				798E33E71CE8A05C00BDB43A /* AllMealsTableViewCell.m */,
+				798E33E91CE8E1D200BDB43A /* AllMealsTableViewCell.xib */,
+			);
+			name = AllMealsTableViewCell;
+			sourceTree = "<group>";
+		};
+		798E33F11CE9DFA300BDB43A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				798E33FF1CEB453D00BDB43A /* UIImage */,
+				798E33FE1CEB453300BDB43A /* NSDate */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		798E33FE1CEB453300BDB43A /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				798E33F51CE9E03000BDB43A /* NSDate+DateCategory.h */,
+				798E33F61CE9E03000BDB43A /* NSDate+DateCategory.m */,
+			);
+			name = NSDate;
+			sourceTree = "<group>";
+		};
+		798E33FF1CEB453D00BDB43A /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				798E34001CEB45D500BDB43A /* UIImage+LoadURLCategory.h */,
+				798E34011CEB45D500BDB43A /* UIImage+LoadURLCategory.m */,
+			);
+			name = UIImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +327,7 @@
 				TargetAttributes = {
 					798E339C1CE731DF00BDB43A = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = W3Q736QM6S;
 					};
 					798E33B81CE731DF00BDB43A = {
 						CreatedOnToolsVersion = 7.3;
@@ -246,6 +364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				798E33EA1CE8E1D200BDB43A /* AllMealsTableViewCell.xib in Resources */,
 				798E33B31CE731DF00BDB43A /* LaunchScreen.storyboard in Resources */,
 				798E33B01CE731DF00BDB43A /* Assets.xcassets in Resources */,
 				798E33AB1CE731DF00BDB43A /* Main.storyboard in Resources */,
@@ -273,10 +392,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				798E33ED1CE9093000BDB43A /* AllMealsViewController.m in Sources */,
 				798E33AE1CE731DF00BDB43A /* iEat.xcdatamodeld in Sources */,
-				798E33A81CE731DF00BDB43A /* ViewController.m in Sources */,
+				798E33A81CE731DF00BDB43A /* MainViewController.m in Sources */,
 				798E33A51CE731DF00BDB43A /* AppDelegate.m in Sources */,
+				798E33FD1CEB25EE00BDB43A /* MealDescriptionViewController.m in Sources */,
+				798E33F01CE9BD7800BDB43A /* MealOnDay.m in Sources */,
+				798E33E11CE755C000BDB43A /* MasterModel.m in Sources */,
+				798E33E81CE8A05C00BDB43A /* AllMealsTableViewCell.m in Sources */,
+				798E33DA1CE7329100BDB43A /* iEatServerAPI.m in Sources */,
+				798E34021CEB45D500BDB43A /* UIImage+LoadURLCategory.m in Sources */,
+				798E33DD1CE7434100BDB43A /* Meal.m in Sources */,
+				798E33FA1CEA007000BDB43A /* AddMealViewController.m in Sources */,
 				798E33A21CE731DF00BDB43A /* main.m in Sources */,
+				798E33F71CE9E03000BDB43A /* NSDate+DateCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +497,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -407,7 +536,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -419,9 +548,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W3Q736QM6S;
 				INFOPLIST_FILE = iEat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GProwess.iEat;
+				PRODUCT_BUNDLE_IDENTIFIER = rajan.gokul.ieat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -430,9 +561,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W3Q736QM6S;
 				INFOPLIST_FILE = iEat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GProwess.iEat;
+				PRODUCT_BUNDLE_IDENTIFIER = rajan.gokul.ieat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -502,6 +635,7 @@
 				798E33CF1CE731DF00BDB43A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		798E33D01CE731DF00BDB43A /* Build configuration list for PBXNativeTarget "iEatTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +644,7 @@
 				798E33D21CE731DF00BDB43A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		798E33D31CE731DF00BDB43A /* Build configuration list for PBXNativeTarget "iEatUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +653,7 @@
 				798E33D51CE731DF00BDB43A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
