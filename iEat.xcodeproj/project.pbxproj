@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4466A7BBC0EBFE70967B5643 /* libPods-iEatUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9450563CBE30DB7D3BE96AE /* libPods-iEatUITests.a */; };
 		798E33A21CE731DF00BDB43A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 798E33A11CE731DF00BDB43A /* main.m */; };
 		798E33A51CE731DF00BDB43A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 798E33A41CE731DF00BDB43A /* AppDelegate.m */; };
 		798E33A81CE731DF00BDB43A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798E33A71CE731DF00BDB43A /* MainViewController.m */; };
@@ -27,6 +28,9 @@
 		798E33FA1CEA007000BDB43A /* AddMealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798E33F91CEA007000BDB43A /* AddMealViewController.m */; };
 		798E33FD1CEB25EE00BDB43A /* MealDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798E33FC1CEB25EE00BDB43A /* MealDescriptionViewController.m */; };
 		798E34021CEB45D500BDB43A /* UIImage+LoadURLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 798E34011CEB45D500BDB43A /* UIImage+LoadURLCategory.m */; };
+		D64F61D51AF4B36EADE4F87D /* libPods-iEatTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D834EC5220DA339EFA94D4 /* libPods-iEatTests.a */; };
+		E52F4D6F2050B99A0078B9DE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E52F4D6E2050B99A0078B9DE /* GoogleService-Info.plist */; };
+		F9764B6729B980CC0149907D /* libPods-iEat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 714C1DA299B5BEEB98EBAF90 /* libPods-iEat.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17D834EC5220DA339EFA94D4 /* libPods-iEatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iEatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17FCE7B0B758FC3A73186FDC /* Pods-iEatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iEatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iEatUITests/Pods-iEatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		650C0878C15F9354DCE1841A /* Pods-iEatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iEatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iEatTests/Pods-iEatTests.release.xcconfig"; sourceTree = "<group>"; };
+		714C1DA299B5BEEB98EBAF90 /* libPods-iEat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iEat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		798E339D1CE731DF00BDB43A /* iEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		798E33A11CE731DF00BDB43A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		798E33A31CE731DF00BDB43A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,6 +93,12 @@
 		798E33FC1CEB25EE00BDB43A /* MealDescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealDescriptionViewController.m; sourceTree = "<group>"; };
 		798E34001CEB45D500BDB43A /* UIImage+LoadURLCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LoadURLCategory.h"; sourceTree = "<group>"; };
 		798E34011CEB45D500BDB43A /* UIImage+LoadURLCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LoadURLCategory.m"; sourceTree = "<group>"; };
+		8D50BBCD1CB4D7D4C907481F /* Pods-iEatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iEatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iEatTests/Pods-iEatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		932C7237C737A58ECE6DD236 /* Pods-iEat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iEat.release.xcconfig"; path = "Pods/Target Support Files/Pods-iEat/Pods-iEat.release.xcconfig"; sourceTree = "<group>"; };
+		B9450563CBE30DB7D3BE96AE /* libPods-iEatUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iEatUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37D7D1A1B4369A045941D2C /* Pods-iEat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iEat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iEat/Pods-iEat.debug.xcconfig"; sourceTree = "<group>"; };
+		CA44CA3F0264E16706BF05A3 /* Pods-iEatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iEatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iEatUITests/Pods-iEatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E52F4D6E2050B99A0078B9DE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9764B6729B980CC0149907D /* libPods-iEat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D64F61D51AF4B36EADE4F87D /* libPods-iEatTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,12 +122,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4466A7BBC0EBFE70967B5643 /* libPods-iEatUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25A397BBC0AA5DA97DAA68A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C37D7D1A1B4369A045941D2C /* Pods-iEat.debug.xcconfig */,
+				932C7237C737A58ECE6DD236 /* Pods-iEat.release.xcconfig */,
+				8D50BBCD1CB4D7D4C907481F /* Pods-iEatTests.debug.xcconfig */,
+				650C0878C15F9354DCE1841A /* Pods-iEatTests.release.xcconfig */,
+				CA44CA3F0264E16706BF05A3 /* Pods-iEatUITests.debug.xcconfig */,
+				17FCE7B0B758FC3A73186FDC /* Pods-iEatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		798E33941CE731DF00BDB43A = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +149,8 @@
 				798E33BC1CE731DF00BDB43A /* iEatTests */,
 				798E33C71CE731DF00BDB43A /* iEatUITests */,
 				798E339E1CE731DF00BDB43A /* Products */,
+				25A397BBC0AA5DA97DAA68A3 /* Pods */,
+				D7DE6214DC411D7F23162920 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +176,7 @@
 				798E33E31CE8A01600BDB43A /* View */,
 				798E33AF1CE731DF00BDB43A /* Assets.xcassets */,
 				798E33B11CE731DF00BDB43A /* LaunchScreen.storyboard */,
+				E52F4D6E2050B99A0078B9DE /* GoogleService-Info.plist */,
 				798E33B41CE731DF00BDB43A /* Info.plist */,
 				798E33AC1CE731DF00BDB43A /* iEat.xcdatamodeld */,
 				798E33A01CE731DF00BDB43A /* Supporting Files */,
@@ -260,6 +293,16 @@
 			name = UIImage;
 			sourceTree = "<group>";
 		};
+		D7DE6214DC411D7F23162920 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				714C1DA299B5BEEB98EBAF90 /* libPods-iEat.a */,
+				17D834EC5220DA339EFA94D4 /* libPods-iEatTests.a */,
+				B9450563CBE30DB7D3BE96AE /* libPods-iEatUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -267,9 +310,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 798E33CD1CE731DF00BDB43A /* Build configuration list for PBXNativeTarget "iEat" */;
 			buildPhases = (
+				A11ECD3B469167617F3B3585 /* [CP] Check Pods Manifest.lock */,
 				798E33991CE731DF00BDB43A /* Sources */,
 				798E339A1CE731DF00BDB43A /* Frameworks */,
 				798E339B1CE731DF00BDB43A /* Resources */,
+				B4708E34C8B29E93ACE59993 /* [CP] Embed Pods Frameworks */,
+				49C58A55F39695F8F4464E0F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,9 +330,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 798E33D01CE731DF00BDB43A /* Build configuration list for PBXNativeTarget "iEatTests" */;
 			buildPhases = (
+				315456DAC745D9564DC8C88A /* [CP] Check Pods Manifest.lock */,
 				798E33B51CE731DF00BDB43A /* Sources */,
 				798E33B61CE731DF00BDB43A /* Frameworks */,
 				798E33B71CE731DF00BDB43A /* Resources */,
+				543F0DE5305ACA9465579B09 /* [CP] Embed Pods Frameworks */,
+				3BA9F7E54A677CE37A976D23 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -302,9 +351,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 798E33D31CE731DF00BDB43A /* Build configuration list for PBXNativeTarget "iEatUITests" */;
 			buildPhases = (
+				15263507DA805D46C02B2E8A /* [CP] Check Pods Manifest.lock */,
 				798E33C01CE731DF00BDB43A /* Sources */,
 				798E33C11CE731DF00BDB43A /* Frameworks */,
 				798E33C21CE731DF00BDB43A /* Resources */,
+				FF39FBD314C031F6DB621300 /* [CP] Embed Pods Frameworks */,
+				225E126E5A0C132031B0F962 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -366,6 +418,7 @@
 			files = (
 				798E33EA1CE8E1D200BDB43A /* AllMealsTableViewCell.xib in Resources */,
 				798E33B31CE731DF00BDB43A /* LaunchScreen.storyboard in Resources */,
+				E52F4D6F2050B99A0078B9DE /* GoogleService-Info.plist in Resources */,
 				798E33B01CE731DF00BDB43A /* Assets.xcassets in Resources */,
 				798E33AB1CE731DF00BDB43A /* Main.storyboard in Resources */,
 			);
@@ -386,6 +439,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15263507DA805D46C02B2E8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iEatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		225E126E5A0C132031B0F962 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iEatUITests/Pods-iEatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		315456DAC745D9564DC8C88A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iEatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BA9F7E54A677CE37A976D23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iEatTests/Pods-iEatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49C58A55F39695F8F4464E0F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iEat/Pods-iEat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		543F0DE5305ACA9465579B09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iEatTests/Pods-iEatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A11ECD3B469167617F3B3585 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iEat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4708E34C8B29E93ACE59993 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iEat/Pods-iEat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF39FBD314C031F6DB621300 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iEatUITests/Pods-iEatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		798E33991CE731DF00BDB43A /* Sources */ = {
@@ -546,6 +746,7 @@
 		};
 		798E33CE1CE731DF00BDB43A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C37D7D1A1B4369A045941D2C /* Pods-iEat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W3Q736QM6S;
@@ -559,6 +760,7 @@
 		};
 		798E33CF1CE731DF00BDB43A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 932C7237C737A58ECE6DD236 /* Pods-iEat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W3Q736QM6S;
@@ -572,6 +774,7 @@
 		};
 		798E33D11CE731DF00BDB43A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D50BBCD1CB4D7D4C907481F /* Pods-iEatTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = iEatTests/Info.plist;
@@ -584,6 +787,7 @@
 		};
 		798E33D21CE731DF00BDB43A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 650C0878C15F9354DCE1841A /* Pods-iEatTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = iEatTests/Info.plist;
@@ -596,6 +800,7 @@
 		};
 		798E33D41CE731DF00BDB43A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA44CA3F0264E16706BF05A3 /* Pods-iEatUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = iEatUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -607,6 +812,7 @@
 		};
 		798E33D51CE731DF00BDB43A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17FCE7B0B758FC3A73186FDC /* Pods-iEatUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = iEatUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
